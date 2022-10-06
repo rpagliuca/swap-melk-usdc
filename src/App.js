@@ -2,7 +2,7 @@ import './App.css';
 import { darkTheme, SwapWidget } from '@uniswap/widgets'
 import '@uniswap/widgets/fonts.css'
 import { useState, useEffect } from 'react';
-import { Navbar, Container, Row, Col, Button } from 'reactstrap';
+import { Navbar, Button } from 'reactstrap';
 
 const MELK_POLYGON_ADDRESS = "0x9Fd41F6f67D4438f0e3Dc3951eAE0ad2093492Dd";
 const USDC_POLYGON_ADDRESS = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174";
@@ -43,7 +43,7 @@ function App() {
 
       <hr/>
       <div className="footer">
-        <p>Atenção: Este dApp não possui nenhum vínculo com a organização WEB3DEV. $MELK é um token com propósito educativo. Os valores de compra e venda são simbólicos e podem ser menores que as próprias taxas da rede. Para saber mais sobre o $MELK, acesse <a target="_blank" href="https://www.web3dev.com.br/web3melk/melk-primeiro-token-learn-to-earn-do-brasil-2pj7">esse artigo da WEB3DEV</a>. Os preços de compra e venda de $MELK são calculados automaticamente pelo <a target="_blank" href="https://academy.binance.com/pt/articles/what-is-uniswap-and-how-does-it-work">algoritmo de liquidez infinita do Uniswap</a>. Para reduzir a volatilidade de preço, é possível <a target="_blank" href="https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3">adicionar liquidez ao par</a>.</p>
+        <p>Atenção: Este dApp não possui nenhum vínculo com a organização WEB3DEV. $MELK é um token com propósito educativo. Os valores de compra e venda são simbólicos e podem ser menores que as próprias taxas da rede. Para saber mais sobre o $MELK, acesse <a target="_blank" rel="noreferrer" href="https://www.web3dev.com.br/web3melk/melk-primeiro-token-learn-to-earn-do-brasil-2pj7">esse artigo da WEB3DEV</a>. Os preços de compra e venda de $MELK são calculados automaticamente pelo <a target="_blank" rel="noreferrer" href="https://academy.binance.com/pt/articles/what-is-uniswap-and-how-does-it-work">algoritmo de liquidez infinita do Uniswap</a>. Para reduzir a volatilidade de preço, é possível <a target="_blank" rel="noreferrer" href="https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3">adicionar liquidez ao par</a>.</p>
       </div>
 
     </center>
