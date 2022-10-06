@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkswap_melk_usdc=self.webpackChunkswap_melk_usdc||[]).push([[155],{98155:function(s,e,u){u.r(e),u.d(e,{default:function(){return a}});var a={messages:{}}}}]);
+//# sourceMappingURL=155.00b34c21.chunk.js.map
