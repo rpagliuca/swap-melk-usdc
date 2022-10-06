@@ -1,5 +1,6 @@
 {
   "name": "swap-melk-usdc",
+  "homepage": "https://rpagliuca.github.io/swap-melk-usdc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
